@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Young serif";
+  src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+@font-face {
+  font-family: outfit;
+  src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: outfit;
+  background-color: hsl(30, 54%, 90%);
+  color: hsl(0, 0%, 47%);
+}
+img {
+  width: 650px;
+  border-radius: 15px;
+}
+
+.container {
+  display: flex;
+  margin-top: 6%;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.card {
+  width: 650px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+}
+ol {
+  color: hsl(332, 51%, 32%);
+}
+ol:li {
+  color: hsl(14, 45%, 36%);
+}
+b {
+  color: hsl(30, 10%, 34%);
+}
+h1 {
+  font-family: "Young serif";
+  color: hsl(24, 5%, 18%);
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: "Young serif";
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin-top: 0px;
+}
+span {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+
+.prep {
+  padding: 30px;
+  background-color: hsl(330, 100%, 98%);
+}
+
+.attribution {
+  margin-top: 30px;
+  text-decoration: none;
+  font-size: small;
+  font-weight: bold;
+}
+a:link {
+  font-size: large;
+  text-decoration: none;
+}
+a:visited {
+  font-size: large;
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
+a:active {
+  font-size: large;
+  color: hsl(245, 75%, 52%);
+  text-decoration: none;
+}
